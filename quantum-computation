@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Quantum Level</title>
+      <link rel="stylesheet" href="style.css" media="screen">
+  </head>
+  <body>
+    <h1>Quantum Computation</h1>
+    <div id="toc" class="toc">
+      <div id="toctitle">
+        <h2>Contents</h2>
+        <div>
+          <ul>
+            <li>
+                <span class="tocnumber">1.</span>
+                <span class="toctext">What is Quantum Computation?</span>
+            </li>
+            <li>
+                <span class="tocnumber">2.</span>
+                <span class="toctext">Why Quantum Computation?</span>
+            </li>
+            <li>
+                <span class="tocnumber">3.</span>
+                <span class="toctext">What are Qubits?</span>
+            </li>
+            <li>
+                <span class="tocnumber">4.</span>
+                <span class="toctext">How Powerful are Quantum Computers?</span>
+            </li>
+            <li>
+                <span class="tocnumber">5.</span>
+                <span class="toctext">How to build Quantum Computers</span>
+            </li>
+            <li>
+                <span class="tocnumber">6.</span>
+                <span class="toctext">Future of Quantum Computing</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div><br>
+    <div class="decoherence">
+    <div>
+        <h2>
+          <span class="mw-headline" id="Quantum_Computation?">What is Quantum Computation?</span>
+        </h2>
+      <p>
+        Quantum Computing is pretty much using the amazing and powerful laws of <b><em>quantum mechanics</em></b> to process information
+        in a computing machine. A normal computer like the one that I am using to create this webpage uses long strings
+        called <em><b>bits</b></em> which hold the values of either zero or one. These bits are used for only the <b><em>processor</em></b>
+        because only the processor understands that language. A quantum computer however, uses <b>quantum bits</b> or a short term
+        for that would be called <b><em>qubits</em></b>. We will get more to that later though...
+      </p>
+    </div>
+    <div>
+        <h2>
+          <span class="mw-headline" id="Quantum_Computing">Why Quantum Computation?</span>
+        </h2>
+      <p>
+        Technology has certainly evoloved from time to time considering the fact that now we have such tiny microprocessors to be able
+        and process information really fast and the fact that back then 200MB would have been huge but now it's really nothing much.
+        We have literally come from gears to transistors to integrated circuits and now we are advancing to bigger more complex machines
+        that are capable of doing awesome and amazing things. With how all the technology are becoming nano-sized, we are seeing the fact that
+        chips and processors are being smaller and smaller and when that happens then the logic gates become to a point where they would have an atomic
+        size.
+      </p>
+    </div>
+    <div>
+        <h2>
+          <span class="mw-headline" id="Qubits">What are Qubits?</span>
+        </h2>
+      <p>
+        A <em><b>bit</b></em> is a physical system that can be prepared in one of two different states representing two
+        logical values: <b>yes</b> or <b>no</b>, <b>true</b> or <b>false</b>, or even <b>0</b> and <b>1</b>. Qubits are implemented using
+        quantum mechanical two state systems and they are not confined to their two basic states but can also exist in <b><em>superpositions</em></b>.
+        <b>What this means is that the qubit is both in state 0 and state 1.</b> Any classical register composed of three bits can store in
+        a given moment of time only one out of eight different numbers. A quantum register composed of three qubits can store in a given moment
+        of time all eight numbers in a quantum superposition. The register can perform operations on all of the different numbers once the register
+        is prepared in superposition. Therefore the quantum computers can perform many different calculations in parallel. <b>This means
+        that a system is N qubits can perform 2 to the power of n.</b> For information on <b>superposition</b>, please click this
+        <a href="http://whatis.techtarget.com/definition/superposition">link</a>.
+      </p><br>
+      <img src="http://cdn.zmescience.com/wp-content/uploads/2015/03/qubit.png" alt="bits and qubits" />
+    </div>
+    <div>
+        <h2>
+          <span class="mw-headline" id="Powerful">How Powerful are Quantum Computers?</span>
+        </h2>
+      <p>
+        All computers in general process certain information using methods that it was programmed to use and they are called <b><em>algorithms</em></b>.
+        For more information on algorithms, please click this <a href="https://en.wikipedia.org/wiki/Algorithm">link</a>. For an algorithm to
+        be efficient, the time the algorithm needs for it to be executed must increase no faster than a polynomial function regarding the size of its
+        input. We need to think about the input size as the total number of bits needed to specify the input to the problem. For example, the number
+        of bits needed to encode the number we want to <b>factorize</b>. If we use the best algorithm we know for a particular problem has
+        the execution time bounded by a polynomial, then we say that the problem belongs to a class P. Problems that are outside the class P are
+        known as "hard problems" and that means that it is either impossible to solve or non-computable. However, there are <b><em>quantum algorithms</em></b>
+        that do turn hard mathematical problems into easy ones.
+      </p><br>
+      <img src="http://2.bp.blogspot.com/-PHsTeG41GpA/VH_IIs68thI/AAAAAAAAAJ8/mybAgN6Podo/s1600/Screenshot%2Bfrom%2B2014-12-03%2B21%3A30%3A42.png" alt="power of quantum" />
+    </div>
+    <div>
+        <h2>
+          <span class="mw-headline" id="Building">How to build Quantum Computers</span>
+        </h2>
+      <p>
+        As a fundamental truth, to actually build a quantum computer, we need to start with some simple <b>quantum logic gates</b> and
+        connect them up with the quantum networks. A <b>quantum logic gate</b> like a normal logic gate is a very simple computing
+        device that performs one elementary quantum operation, usually on two qubits in a given time. Quantum logic however, differs from
+        the classical counterparts in that they can create and perform operations on <b>quantum superpositions</b>. As the number of quantum
+        gates in the network increases, we start to run into some serious problems. The more interacting qubits that are involved will start
+        to increase the difficulty for engineering the interaction that would display the quantum properties. The more components there are, the
+        more likely it is that quantum information will spread outside the quantum computer and be lost in the environment, thus messing up the
+        computation. This is known as <b><em>decoherence</em></b>. The task that needs to be accomplished is to engineer sub-microscopic systems
+        in which qubits <b>affect eachother</b> but not the <b>environment</b>.
+      </p><br>
+      <img src="http://www.livescience.com/images/i/000/047/852/i02/quantum-computer.jpg?1368740649" alt="quantum processor" />
+    </div>
+    <div>
+        <h2>
+          <span class="mw-headline" id="Future">Future of Quantum Computing</span>
+        </h2>
+      <p>
+        Right now, we do have actual quantum computers but not sufficient or powerful enough to replace our classical computers.
+        A team of researchers from the <b>IQC(Institute for Quantum Computing)</b> and <b>MIT(Massachusetts Institute of Technology)</b>
+        hold the world record for using the most number of qubits in an experiment and the number is 12. Practical quantum technologies
+        are right now emerging such as highly effective sensors and actuators. Unfortunately as of now, a powerful quantum computer that can
+        outperform a classical computer is still years away and theorists are figuring out ways of trying to avoid <b>decoherence</b>. Experimentalists
+        are gaining more control over the quantum world through various technologies and instruments and all of this is paving the way for
+        the quantum era and the possibilities that lie ahead are endless.
+      </p><br>
+      <img src="http://core0.staticworld.net/images/article/2015/12/151208-nasa-03-100632100-large.jpg" alt="d wave quantum computer" />
+    </div>
+    <div>
+      <footer>
+          <h2>
+            <span class="mw-headline" id="Reference">References</span>
+          </h2>
+          <ul class="references">
+              <li><a href="http://core0.staticworld.net/images/article/2015/12/151208-nasa-03-100632100-large.jpg">http://core0.staticworld.net/images/article/2015/12/151208-nasa-03-100632100-large.jpg</a></li>
+              <li><a href="https://uwaterloo.ca/institute-for-quantum-computing/quantum-computing-101#Quantum-vs-classical">https://uwaterloo.ca/institute-for-quantum-computing/quantum-computing-101#Quantum-vs-classical</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Algorithm">https://en.wikipedia.org/wiki/Algorithm</a></li>
+              <li><a href="http://whatis.techtarget.com/definition/superposition">http://whatis.techtarget.com/definition/superposition</a></li>
+          </ul>
+      </footer>
+    </div>
+    </div>
+  </body>
+</html>
+<!--I might have also used some code from wikipedia where I was trying to do the contents list but in the end I just made a standard table of
+contents so that the reader would know exactly what s/he was reading-->
+
+
+<!--I just like quantum physics, mechanics and computation, and honestly I just wanted to add
+some light on the subject to some people... and no I am not studying to be a physicist but a
+computer engineer and I believe that quantum computers will be and shape our future -->
+
+
+<!-- REFERENCES
+https://uwaterloo.ca/institute-for-quantum-computing/quantum-computing-101#Quantum-vs-classical
+http://media.defenceindustrydaily.com/images/PUB_CQC_Cambridge_Quantum_Computing_Explained_lg.png
+-->
