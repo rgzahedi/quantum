@@ -51,3 +51,7 @@ h2{
 .references{
   font-size: 1.25em;
 }
+
+/* This CSS file is directly linked to the HTML file that is called quantum
+computation and it allows for all the gifs and certain style details that I made
+to my custom webpage. */
