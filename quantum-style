@@ -1,0 +1,53 @@
+body
+{
+  background-image: url("http://bestanimations.com/Science/Chemistry/chemistry-atom-proton-electron-animation-17.gif");
+  background-color: black;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 2.5em;
+  font-family: sans-serif;
+}
+
+.toc{
+  display: -webkit-inline-box;
+  text-align: inherit;
+  direction: ltr;
+  font-family: sans-serif;
+  background-color: #DFEAF1;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  font-size: larger;
+}
+
+h2{
+  color: black;
+  font-family: sans-serif;
+  background-color: #294860;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+
+.decoherence{
+  background-color: #DFEAF1;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+
+.mw-headline{
+  font-size: 1.5em;
+  color: #3eafc1;
+  margin-left: 0.5em;
+}
+
+.references{
+  font-size: 1.25em;
+}
